@@ -20,7 +20,7 @@ def zrcadlit():
     for i in range(ctverec.length):
 
         for e in range(0,2):
-            carka_ctverec[i][e] = ctverec[i][e] + 2*(stred[e]-ctverec[i][e]) #vzorec od Kelbasy
+            carka_ctverec[i][e] = ctverec[i][e] + 2*(stred[e]-ctverec[i][e])
 
     zobraz()
 

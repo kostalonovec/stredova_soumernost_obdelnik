@@ -20,7 +20,6 @@ function zrcadlit() {
             carka_ctverec[i][e] = ctverec[i][e] + 2 * (stred[e] - ctverec[i][e])
         }
     }
-    // vzorec od Kelbasy
     zobraz()
 }
 
